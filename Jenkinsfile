@@ -9,7 +9,7 @@ node{
         stage('Email Notifications'){
         mail bcc: '', body: '''Hi Welcome to vishal Email alerts
         Thanks
-        Vishal''', cc: '', from: '', replyTo: '', subject: 'vishal's  Job', to: 'vishalf2018@gmail.com'
+        Vishal''', cc: '', from: '', replyTo: '', subject: 'vishal Job', to: 'vishalf2018@gmail.com'
 		
 	}
 }	
