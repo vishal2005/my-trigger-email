@@ -5,7 +5,7 @@ node{
 	stage('Compile Package'){ 
         def mvnHome = tool name:'maven3.5', type:'maven'
 	def antHome = tool name: 'Default', type: 'ant'
-	sh  "${mvnHome}/bin/ant --version"
+	sh  "${antHome}/bin/ant --version"
 	sh "${mvnHome}/bin/mvn --version"
 	sh "${mvnHome}/bin/mvn package"
 	}
