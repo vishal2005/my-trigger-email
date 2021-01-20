@@ -10,7 +10,7 @@ node{
 	sh "${mvnHome}/bin/mvn package"
 	}
 	
-	stage('Send Email) {
+	stage('Send Email') {
       mail bcc: '', body: '''Hi Welcome to jenkins email alerts system
 
            Thanks
